@@ -1,0 +1,5 @@
+;register_globals=on;
+suhosin.log.syslog.facility=4
+suhosin.log.file=551
+suhosin.log.syslog=2
+suhosin.log.file.name=/var/log/suhosin.log

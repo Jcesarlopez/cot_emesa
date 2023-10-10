@@ -1,0 +1,185 @@
+
+
+html, body{background-color:#f5f7fa;font-size: .9em}
+html{font-family: 'Roboto', sans-serif;}
+
+.margenBtnAddPartMat{margin-top: 1rem;}
+
+.sinPadMar{padding:0px!important;margin-top:0px;margin-bottom:.2em;}
+.sinMarSup{margin-top:0px!important;}
+.altoPrimFil{height:2.5em!important;padding-top:.6em;margin-bottom:0px!important;}
+
+
+.dropdown-content li>span {
+  color: #1565c0 !important; font-size: .9em;
+}
+
+#tituloEditPartidas{font-size: 1.1rem;}
+
+.dropdown-content li>a {
+  color: #000 !important;
+}
+
+.select-content li>span {
+  color: #000 !important;
+}
+
+.select-content li>a {
+  color: #000 !important;
+}
+
+.spanOpcSelec{font-size: .5rem!important}
+
+
+
+#divFondo img{width: 100%;position: absolute;z-index: 50;margin-top: -1.2rem};
+#referencia{border: 1px solid white!important};
+#basicos{visibility: hidden;}
+#divGraficaPTARIncluNoIncluEntrega{visibility: hidden;}
+
+
+
+.up4px{-ms-transform: translate(0px, -5px); 
+-webkit-transform: translate(0px, -5px); 
+transform: translate(0px, -5px);}
+.liLista:hover{background-color:#EEEEEE;}
+.iconCliente:hover{color:#64b5f6!important;}
+
+
+	
+#spanNomCl{font-size:.7rem;font-weight:bold}
+#spanAtnCl{font-size:.7rem;}
+.iconClienteWebPeq{font-size:1.2rem!important;color:#777777!important;cursor:default}
+.iconClienteWebPeq:hover{color:#999999!important;}
+
+
+/*.rellenoRadio[type="radio"].filled-in:checked + label:after{border: 2px solid #0d47a1;background-color: #0d47a1;}*/
+
+.rellenoRadio[type="radio"]:checked+label:after{background-color: #0d47a1;border: 2px solid #0d47a1}
+
+.rellenoRadio[type="radio"]:checked+label:before{background-color: #0d47a1;border: 2px solid #0d47a1}
+
+
+
+.rellenoRadio[type="radio"]:not(:checked)+label:before{border: 2px solid #0d47a1}
+
+.rellenoCheck[type="checkbox"].filled-in:checked + label:after{border: 2px solid #0d47a1;background-color: #0d47a1;}
+
+/*.rellenoCheck[type="checkbox"].filled-in:checked + label:after*/
+
+#iconsCliente{position: relative;left: 85%;top: -30px;}
+.imgIconsCliente{width: 7%}
+#modalAbrirCot{width: 99%;height: 99%!important}
+#modalPropPlanta{width: 400px;height: 300px}
+.menos2emmargen{transform: translateY(-1.5em);}
+#divMenuBtn{transform: translateY(10px);}
+.toast{background-color: #ef6c00;}
+
+
+
+
+#DivmenuSup{width: 100%; height: 5rem;}.marSupBtnMenu{margin-top: 1rem;padding-top: .5rem;}
+.bordeSelect{border-color:#777;border-radius:0px;}
+.colorBordeInput{border-bottom: 1px solid red;}
+
+
+.textoCuadro1{font-size:1.8em;color:#37474f;font-family:'Oxygen', sans-serif;letter-spacing: 1px;}
+.margenMenos{margin-top:-.3em}
+.icon1{color:white;margin-top:.3em;}
+
+
+
+#selec_capacidad{height:500px;}
+
+#modal1 .modal-footer{position:relative;}
+#modal1{height:650px;}
+
+.spanBoton{color:white;font-family: 'Roboto', sans-serif;}
+
+.c_pointer{cursor:pointer}
+ body {
+}
+display: flex;
+min-height: 100vh;
+flex-direction: column;
+}
+
+main {
+flex: 1 0 auto;background-color:#bbdefb;
+}
+		
+.Roboto{font-family: 'Roboto Condensed', sans-serif;}
+.fz2{font-size:2em}
+.fz3{font-size:3em}
+.fazul{color:#283593}
+
+.Logo{width:170px;margin-left:1em;margin-top:.1em}
+#tbnCliente{margin-bottom:2em;margin-top:1em;height: 3em;padding-top:.4em; border-radius: 0px;}		
+#btnelegircliente{margin-top:2em;border-radius:0px;height:3em;}
+.altorecuadro{height:20em;}
+.collection a i{
+	-ms-transform: translate(1px,5px); /* IE 9 */
+   	-webkit-transform: translate(1px,5px); /* Safari */
+    transform: translate(1px,5px);
+}
+
+.lista{padding:0px!important;margin:0px!important;height:32px;padding-top:.25em!important}
+
+#p_nom_cliente{font-weight: bold;}
+
+.iconPart{transform:translate(0px,5px);}
+
+ #divContenedor{margin-top:2em;background-color:red;}
+  
+.colorf{color:#448aff}
+.blancofuente{color:#ffffff;}
+.colorRecuadro{background-color:white;}
+#divConceptosPTAR{height:280px;}
+
+ #menuLateral{margin-top:-5px;height:100%;background-color:blue;}
+ #menuLateral .collection{height:100%}
+
+
+#divPostModalDato{height: 2em;padding-top: 1em;}
+.divTextModalDato{margin-left: 1em;}		
+.point{cursor: pointer;}
+
+.CardsSup{height: 9rem;}
+.CardsPart{min-height: 5rem;}
+
+
+
+
+.CardsPTAR{height: 20rem;}
+.CardsGrafInNoEn{min-height: 24rem;} 
+
+
+.titleCard{width: 100%;height: 2em;text-align: center;}		
+.textNormalBlanco{color: white}
+
+
+#spanNomEmpresacliente{font-weight: bold;}
+#DivPlanta{margin-top: -.75rem;visibility: hidden;}
+#basicos{margin-top: 2em;visibility: hidden;}
+
+ #divBandaCerrarModal{height: 2.5em;}
+ #divBandaCerrarModal span{font-size: 1.6em;cursor: pointer;}		      		
+.divImgTipoPTAR{width: 100%; cursor: pointer;}
+.divImgTipoPTAR img{width: 50%;margin-left: 25%}
+.pTipoPtar{font-size: 2em;font-weight:lighter}
+#modalEditCliente{width: 90%}
+
+
+
+ @media (max-width: 992px)
+ {
+	#selec_capacidad{height:400px;}
+	#modalEditCliente{width: 90%;}
+	#divUsuario, #divStatusCot{font-size: .9em;}	
+ }
+ @media (max-width: 600px)
+ {
+ 	#modalEditCliente{width: 100%;}
+	#selec_capacidad{height:300px;}	
+	#divUsuario, #divStatusCot{font-size: .8em;}
+ }	

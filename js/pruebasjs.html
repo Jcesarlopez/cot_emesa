@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		
+	function Partidas()
+	{
+		this.divPartidasMat = '<div id="divPartidasMat" class="col m12 l12 "></div>';
+		
+		this.cabezaTablaHtmlVacia = function()
+		{
+			datos='<div class="card blue darken-2 white-text">';	
+				datos+='<div class="row blue darken-3 altoPrimFil">';
+					datos+='<div class="col m6 l6"><strong>&nbsp;Descripci&oacute;n</strong></div>';
+					datos+='<div class="col m2 l1 center-align"><strong> Cantidad</strong></div>';
+					datos+='<div class="col m2 l1 center-align"><strong> Unidad</strong></div>';
+					datos+='<div class="col m2 l2 right-align"><strong> Precio </strong></div>';
+					datos+='<div class="col m2 l2 right-align"><strong>Total </strong></div>';
+				datos+='</div>';
+				datos+='<div id="divContPartidasSinHead">'
+				datos+='</div>';
+			datos+='<div class="card-content CardsPart sinMarSup">';	
+
+			/*$('#DivPlanta').html('<div id="divPartidasMat" class="col m12 l12 "></div>');	
+			$('#divPartidasMat').html(datos);*/
+		} 
+	}
+
+	var divPartMat = new Partidas();
+	
+	//$('#DivPlanta').html(divPartMat.divPartidasMat);	
+
+	</script>
+</head>
+<body onload="divPartMat.cabezaTablaHtmlVacia();">
+
+</body>
+</html>
+
+
+

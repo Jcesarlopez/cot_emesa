@@ -1,0 +1,63 @@
+.bordeSelect{border-color:#777;border-radius:0px;}
+.colorBordeInput{border-bottom: 1px solid red;}
+
+
+.textoCuadro1{font-size:1.8em;color:#37474f;font-family:'Oxygen', sans-serif;letter-spacing: 1px;}
+.margenMenos{margin-top:-.3em}
+.icon1{color:white;margin-top:.3em;}
+html, body{background-color:#d0d2e2}
+#selec_capacidad{height:500px;}
+
+#modal1 .modal-footer{position:relative;}
+#modal1{height:650px;}
+
+
+.c_pointer{cursor:pointer}
+ body {
+}
+display: flex;
+min-height: 100vh;
+flex-direction: column;
+}
+
+main {
+flex: 1 0 auto;background-color:#bbdefb;
+}
+		
+.Roboto{font-family: 'Roboto Condensed', sans-serif;}
+.fz2{font-size:2em}
+.fz3{font-size:3em}
+.fazul{color:#283593}
+
+.Logo{width:170px;margin-left:1em;margin-top:.1em}
+#tbnCliente{margin-bottom:2em;margin-top:1em;height: 3em;padding-top:.4em; border-radius: 0px;}		
+#btnelegircliente{margin-top:2em;border-radius:0px;height:3em;}
+.altorecuadro{height:20em;}
+.collection a i{
+	-ms-transform: translate(1px,5px); /* IE 9 */
+   	-webkit-transform: translate(1px,5px); /* Safari */
+    transform: translate(1px,5px);
+}
+
+#p_nom_cliente{font-weight: bold;}
+
+
+
+ #divContenedor{margin-top:2em;background-color:red;}
+  
+.colorf{color:#448aff}
+.blancofuente{color:#ffffff;}
+.colorRecuadro{background-color:white;}
+#divConceptosPTAR{height:280px;}
+
+ #menuLateral{margin-top:-5px;height:100%;background-color:blue;}
+ #menuLateral .collection{height:100%}
+
+ @media (max-width: 992px)
+ {
+	#selec_capacidad{height:400px;}
+ }
+ @media (max-width: 600px)
+ {
+	#selec_capacidad{height:300px;}	
+ }	
