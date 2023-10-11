@@ -93,7 +93,7 @@ function loadPage()
 	          <div class="card blue darken-2 white-text">
 	            <div class="card-content CardsSup">
 	              <div class="titleCard">
-	              	<a href="#modalCliente" class="modal-trigger"><span class="textNormalBlanco"><i class="fa fa-user-o" aria-hidden="true"></i>&nbsp;Seleccionar cliente</span></a>
+	              	<a href="#modalCliente" class="modal-trigger"><span class="textNormalBlanco"><i class="fa fa-user-o" aria-hidden="true"></i>&nbsp;Seleccionar un cliente</span></a>
 	              </div>
 	              <style>
 	              	#iconsCliente{position: relative;left: 85%;top: -30px;}
